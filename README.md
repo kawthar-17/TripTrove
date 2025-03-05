@@ -7,14 +7,14 @@ trip trove is travel planner that helps the user to plan a trip and see all the 
 -[Features](#features)
 -[How to use it](#usage)
 
-### Features {#features}
+### Features 
 - Display real time weather in the city that the user choose
 -  Show the best hotels on the region
 - Show the most known restaurant in the country
 - Show the places that are visited by tourists
 - Allow the user to save some places of his choice to check them later
 
-  ### How to use it {#usage}
+  ### Usage
   1. The user start by entering his location(country) and the country he would like to visit
   2. The weather in the city that he would like to visit will be displayed
   3. In the second page the user will see the best hotes, restauants, and places of intrest
