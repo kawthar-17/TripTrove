@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Trove</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Parisienne&family=Satisfy&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- style -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- nav bar -->
+    <header class="header">
+        <div class="logo">Trip Trove.</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attraction.html">Attraction</a></li>
+                <li><a href="login.html">Log in</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- body -->
+    <main>
+        <!-- about us + logo -->
+        <section class="main">
+            <img src="img/logo-triptrove.png" alt="logo" class="logo-img">
+            <div class="about-us">
+                <h1>About us</h1>
+                <p>Trip Trove is your ultimate travel planner, designed to make exploring new cities a breeze. Discover must-see places of interest, With real-time weather updates and seamless flight ticket booking, Trip Trove ensures you're always prepared for your adventure. Just choose your city, and let the journey begin!</p>
+                <a href="login.html"><button>Log in</button></a>
+            </div>
+        </section>
+        
+        <!-- user input -->
+        <section class="search">
+           
+            <table>
+                <tr>
+                    <td>
+                        <h2>Your location</h2>
+                        <input type="text" placeholder="From" id="city1" required>      
+                    </td>
+                    <td>
+                        <h2>Your destination</h2>
+                        <input type="text" placeholder="To" id="city2" required>               
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h2>Departure date</h2>
+                        <input name="date" type="date" id="date1" required>               
+                    </td>
+        
+                </tr>
+                <tr>
+                    <td colspan="2" id="submit">
+                        <input type="submit" name="submit" id="submit">
+                    </td>
+                </tr>
+            </table>
+            
+        </section>
+
+        
+        <!-- placeholder for flight api -->
+        <h2 class="section-heading">Flight offers</h2>
+        <section id="flightsContainer">
+        
+        </section>
+        
+        <!-- placeholder for weather api -->
+        <h2 class="section-heading" id="weather-heading">Weather</h2>
+        <section id="weatherContainer">
+            
+        </section>
+
+
+        <!-- categorys in the attraction page -->
+        <section class="categories">
+            <div class="category"><a href="attraction.html#hotel-heading">See Hotels </a></div>
+            <div class="category"><a href="attraction.html#resto-heading">See Restaurant</a></div>
+            <div class="category"><a href="attraction.html#landmark-heading">See Places of interest</a></div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="content footer-section">
+                <h2>
+                    Content
+                </h2>
+                <ul>
+                    <li>Places of intrest</li>
+                    <li>Weather</li>
+                    <li>Flight Tickets</li>
+                    <li>List Your own plans</li>
+                </ul>
+            </div>
+            <div class="links footer-section">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="attraction.html">Attraction</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+            </div>
+            <div class="contact footer-section">
+                <h2>Contact</h2>
+                <ul>
+                    <li><i class='bx bx-envelope'></i>: TripTrove@gmail.com</li>
+                    <li><i class='bx bx-phone'></i> : 81 123456 </li>
+            
+                </ul>
+                </div>
+        </div>
+        <hr class="hr">
+        <p class="p-footer">© 2025 TripTrove. All Rights Reserved.</p>
+       
+    </footer>
+
+    <!-- js linking -->
+    <script src="home.js"></script>
+</body>
+</html>
+
+
+
